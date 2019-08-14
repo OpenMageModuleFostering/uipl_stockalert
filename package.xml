@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Uipl_Stockalert</name>
+    <version>1.0.0.5</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Send notification to admin using cron job and on order place when stock is low.</summary>
+    <description>This module will generate out of stock alert notification for admin when product goes below minimum stock.After installation of this module you should enable cron job at cpanel for magento.</description>
+    <notes>After installation of this module you need to enable stock alert enabled from system configuration and cron job at cpanel for magento.</notes>
+    <authors><author><name>UJJAL DUTTA</name><user>ujjaldutta</user><email>ujjal.dutta.pro@gmail.com</email></author></authors>
+    <date>2015-11-29</date>
+    <time>06:12:57</time>
+    <contents><target name="magecommunity"><dir name="Uipl"><dir name="Stockalert"><dir name="Helper"><file name="Data.php" hash="97ae3bc9b0493e0db9e9b02cfdd10e73"/></dir><dir name="Model"><file name="Cron.php" hash="b16ba267777e27a0ca976ff26c7d05e6"/><file name="Observer.php" hash="802b44d82fee08de4aea0f30d0f173b1"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d39956779ec5c37a2cff0bf04c70729d"/><file name="config.xml" hash="5050951f447011df0a39d141745f4c5a"/><file name="system.xml" hash="ef575d85bf311bf2f11727ba7a651d61"/></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="admin_stock_alert.html" hash="14fc57366851be80b061cf29356794eb"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Uipl_Stockalert.xml" hash="c441dfaa4fcc00683f7541f730345c0c"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
