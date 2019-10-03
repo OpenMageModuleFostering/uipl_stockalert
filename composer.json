@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Uipl_Stockalert",
+    "name": "OpenMageModuleFostering\/Uipl_Stockalert",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Send notification to admin using cron job and on order place when stock is low.",
     "authors": [
-    {
-        "name": "UJJAL DUTTA",
-        "email": "ujjal.dutta.pro@gmail.com"
-    }
-],
+        {
+            "name": "UJJAL DUTTA",
+            "email": "ujjal.dutta.pro@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
